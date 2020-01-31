@@ -44,7 +44,7 @@
     "accessible"
   ],
   "dependencies": {
-    "got": "^8.0.1",
+    "got": "^10.4.0",
     "p-any": "^1.1.0",
     "p-timeout": "^2.0.1",
     "public-ip": "^2.4.0"
