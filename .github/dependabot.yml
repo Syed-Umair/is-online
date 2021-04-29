@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: p-timeout
+    versions:
+    - 4.1.0
+  - dependency-name: got
+    versions:
+    - 11.8.1
